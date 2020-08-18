@@ -5,37 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/73b133f9f0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poly&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Youtube</title>
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav id="navbar">
         <div class="navbar__logo">
-            <a href="https://m.youtube.com/">
+            <a href="https://m.youtube.com/" class="logo__icon">
                 <i class="fab fa-youtube"></i>
             </a>
-            <a href="https://m.youtube.com/">Youtube</a>
+            <a href="https://m.youtube.com/" class="logo__title">Youtube</a>
         </div>
-        <div class="navbar__function">
-            <div class="function__search">
-                <i class="fas fa-search"></i>
-            </div>
-            <div class="function__setting">
-                <i class="fas fa-ellipsis-v"></i>
-            </div>
+        <div class="navbar__functions">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
         </div>
     </nav>
 
     <!-- Video -->
-    <div class="video">
+    <div id="video">
         <img src="./Images/default.png" alt="video" class="video__image" />
     </div>
 
     <!-- Contents -->
-    <div class="contents">
+    <div id="contents">
         <div class="contents__description">
+            <div class="description__hashtag">
+                #DreamCoding #DreamCoders #Ellie
+            </div>
             <div class="description__header">
                 <p class="header__title">
                     클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript
@@ -47,24 +47,24 @@
             <div class="description__views">
                 조회수 2만회
             </div>
-            <div class="description__etc">
-                <div class="etc__like">
+            <div class="description__reactions">
+                <div class="reaction">
                     <i class="fas fa-thumbs-up"></i>
                     <p>676</p>
                 </div>
-                <div class="etc__hate">
+                <div class="reaction">
                     <i class="fas fa-thumbs-down"></i>
                     <p>7</p>
                 </div>
-                <div class="etc__share">
+                <div class="reaction">
                     <i class="fas fa-share"></i>
                     <p>공유</p>
                 </div>
-                <div class="etc__hate">
+                <div class="reaction">
                     <i class="fas fa-plus"></i>
                     <p>저장</p>
                 </div>
-                <div class="etc__hate">
+                <div class="reaction">
                     <i class="fas fa-flag"></i>
                     <p>신고</p>
                 </div>
@@ -93,7 +93,7 @@
     </div>
 
     <!-- OtherVideos -->
-    <div class="otherVideos">
+    <div id="otherVideos">
         <div class="otherVideos__video">
             <img src="/Images/mqdefault (1).webp" alt="Nomad Coders" class="video__image" />
             <div class="video__description">
