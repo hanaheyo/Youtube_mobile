@@ -109,8 +109,8 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 12px;
-    padding: 10px 12px;
+    font-size: 14px;
+    padding: 12px 12px;
     border-top: solid 1px #cbcfd4;
     border-bottom: solid 1px #cbcfd4;
 }
@@ -120,10 +120,21 @@ p {
     align-items: center;
 }
 
+.youtuber__intro__text {
+    padding: 0 8px;
+}
+
 .youtuber__intro__image {
     border-radius: 50%;
     width: 36px;
     height: 36px;
 }
 
-.youtuber__intro__text {}
+.text__subscribersCount {
+    font-size: 12px;
+    color: var(--color-gray);
+}
+
+.youtuber__subscribe {
+    color: var(--color-gray)
+}
